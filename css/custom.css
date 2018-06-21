@@ -1,0 +1,179 @@
+body{
+    background-color: rgb(255, 255, 251);
+}
+.site-banner{
+    height: 0;
+
+}
+h3 {
+    color: #da8813;
+}
+.logo-img{
+    border: 0;
+    
+}
+
+
+/* .menu-list li:first-child a.logo-img{
+    border: 0;
+    padding: 4px;
+    padding-top:10px;
+    margin-right: 20px;
+} */
+
+
+.logo{
+    height: 50px;
+    width: auto;
+}
+.about-tweet {
+    color: #bcffec;
+}
+.my-form{
+    padding: 10px;
+    width: 50%;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom:30px; 
+    box-shadow: 1px 5px 11px 0px #d8d8d8;
+    background-color: #ffffff;
+    border: 1px solid #dcdcd9;
+    border-radius: 5px;
+}
+.my-form label{
+    font-family: 'Open Sans', Sans-serif;
+color: #04c167;
+font-size:0.8em; 
+}
+label{
+    font-family: 'Open Sans', Sans-serif;
+color: #04c167;
+font-size:0.8em; 
+}
+
+.my-form h3{
+    margin: 10px;
+    margin-bottom:20px; 
+}
+
+input, .form-control{
+    background-color: transparent;
+    border-radius: 0;
+    border:0;
+    border-bottom:  1px solid #da8813;
+    box-shadow: none;
+    padding: 4px;
+    color:#da8813;
+    -webkit-transition:  border-bottom 0.8s,font-size 0.8s ease-in-out; /* For Safari 3.1 to 6.0 */
+    transition:  border-bottom 0.8s, font-size 0.8s ease-in-out;
+    
+}
+.search-input{
+    background: url("../images/icons/Search_1-WF.png");
+  
+    background-repeat: no-repeat;
+    padding-right: 15PX;
+    background-position:right,10px;
+    background-size:contain;
+    transition: padding-right;
+    
+}
+a{
+    color:#00c063;
+}
+a:hover{
+    color:#018545;
+}
+.btn-primary{
+    background-color: #da8813;
+    color:#ffffff;
+    border:0;
+}
+.btn-primary:hover{
+    background-color: #b66a00;
+}
+.form-control:focus, input:focus, textarea:focus, button:focus {
+    border:none;
+    box-shadow: none;
+    border-bottom:  2px solid #ffc97c;
+    font-size: 1.6em;
+   
+}
+
+.search-box{
+    padding-top: 10px;
+    background-color: #ddfbe7;
+    margin-bottom: 15px;
+    box-shadow: 0px 2px 4px 0px #9c9a9a;
+}
+.services{
+    padding-top:30px;
+}
+.services h3{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.article {
+    box-shadow: 0px 4px 5px #dad6d6;
+    padding: 15px;
+    border: 1px solid #e3e3e6;
+    margin-top: 10px;
+}
+.profile{
+    border:1px solid #9c9a9a;
+    padding: 10px;
+    margin: 10px;
+
+}
+.profile img{
+    margin-left: auto;
+    margin-right: auto;
+  
+    border-radius: 3px;
+}
+.profile p{
+    text-align: center;
+}
+.profile p.profile-name{
+    font-size: 1.5em;
+    margin: 5px;
+}
+.profile p.profile-job{
+    font-size: 1.5em;
+    margin: 5px;
+    color:#00c063;
+}
+.portfolio-area{
+    padding-bottom: 5px;
+}
+.latest-posts{
+    padding-bottom: 5px; 
+}
+.post-area{
+ padding-bottom: 5px; 
+ padding-top: 5px;
+}
+a.view-more{
+    width: 100px;
+    padding:10px;
+    margin-top:5px;
+border:1px solid #04c167;
+}
+
+/* #10ce97 ?*/
+@media screen and (max-width: 750px){
+    .menu-list li:first-child a.logo-img{
+       display: none;
+    }
+    .menu .navbar-header{
+        display: none;
+    }
+    
+
+}
+
+@media screen and (max-width:500px){
+    .my-form{
+        width: 90%;
+    }
+}
